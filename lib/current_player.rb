@@ -1,4 +1,4 @@
-def turn_cound(board)
+def turn_count(board)
   turns = 0
   board.each do |move|
     if move == "X" || space == "O"
